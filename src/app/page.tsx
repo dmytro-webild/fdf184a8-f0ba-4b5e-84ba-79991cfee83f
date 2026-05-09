@@ -102,7 +102,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Fresh Local Ingredients",          description: "Sourced daily for maximum quality.",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg"},
+          title: "Fresh Local Ingredients",          description: "Sourced daily for maximum quality.",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg?_wi=1"},
         {
           title: "Homemade With Heart",          description: "Every dish is cooked fresh just for you.",          imageSrc: "http://img.b2bpic.net/free-photo/male-chef-kitchen-preparing-salad_23-2149646230.jpg"},
         {
@@ -227,7 +227,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterMedia
       logoText="Nutty Chefs"
-      imageSrc="http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg?_wi=2"
       columns={[
         {
           title: "Pages",          items: [
