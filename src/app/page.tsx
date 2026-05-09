@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
-import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
+import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "#home",
-        },
+          name: "Home",          id: "#home"},
         {
-          name: "Menu",
-          id: "#menu",
-        },
+          name: "Menu",          id: "#menu"},
         {
-          name: "About",
-          id: "#about",
-        },
+          name: "About",          id: "#about"},
         {
-          name: "Contact",
-          id: "#contact",
-        },
+          name: "Contact",          id: "#contact"},
       ]}
       brandName="Nutty Chefs"
     />
@@ -54,66 +46,41 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplit
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Fresh Irish Food Made With Love"
       description="Experience the warmth of homemade, fresh ingredients served with a smile. Nutty Chefs brings the best of Newcastle to your table."
       buttons={[
         {
-          text: "Order Online",
-          href: "#menu",
-        },
+          text: "Order Online",          href: "#menu"},
         {
-          text: "Book a Table",
-          href: "#contact",
-        },
+          text: "Book a Table",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-eating-chicken-salad-with-boiled-vegetable_140725-180.jpg"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/chicken-bozbash-with-vegetables-table_140725-5635.jpg",
-          alt: "Diner 1",
-        },
+          src: "http://img.b2bpic.net/free-photo/chicken-bozbash-with-vegetables-table_140725-5635.jpg",          alt: "Diner 1"},
         {
-          src: "http://img.b2bpic.net/free-photo/baked-salmon-with-vegetables_140725-912.jpg",
-          alt: "Diner 2",
-        },
+          src: "http://img.b2bpic.net/free-photo/baked-salmon-with-vegetables_140725-912.jpg",          alt: "Diner 2"},
         {
-          src: "http://img.b2bpic.net/free-photo/side-view-fried-fish-fillet-with-herbs-vegetables-sauce-plate_141793-2974.jpg",
-          alt: "Diner 3",
-        },
+          src: "http://img.b2bpic.net/free-photo/side-view-fried-fish-fillet-with-herbs-vegetables-sauce-plate_141793-2974.jpg",          alt: "Diner 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/homemade-chanterelle-stuffed-round-zucchini-plate_53876-101537.jpg",
-          alt: "Diner 4",
-        },
+          src: "http://img.b2bpic.net/free-photo/homemade-chanterelle-stuffed-round-zucchini-plate_53876-101537.jpg",          alt: "Diner 4"},
         {
-          src: "http://img.b2bpic.net/free-photo/overhead-view-two-people-toasting-glasses-juice-breakfast_23-2147942224.jpg",
-          alt: "Diner 5",
-        },
+          src: "http://img.b2bpic.net/free-photo/overhead-view-two-people-toasting-glasses-juice-breakfast_23-2147942224.jpg",          alt: "Diner 5"},
       ]}
       avatarText="Loved by 500+ locals"
       marqueeItems={[
         {
-          type: "text",
-          text: "Fresh Ingredients",
-        },
+          type: "text",          text: "Fresh Ingredients"},
         {
-          type: "text",
-          text: "Locally Sourced",
-        },
+          type: "text",          text: "Locally Sourced"},
         {
-          type: "text",
-          text: "Homemade Recipes",
-        },
+          type: "text",          text: "Homemade Recipes"},
         {
-          type: "text",
-          text: "Newcastle Finest",
-        },
+          type: "text",          text: "Newcastle Finest"},
         {
-          type: "text",
-          text: "Friendly Atmosphere",
-        },
+          type: "text",          text: "Friendly Atmosphere"},
       ]}
     />
   </div>
@@ -124,9 +91,7 @@ export default function LandingPage() {
       title="A Community Heart in Newcastle"
       buttons={[
         {
-          text: "Learn More",
-          href: "#about",
-        },
+          text: "Learn More",          href: "#about"},
       ]}
     />
   </div>
@@ -137,20 +102,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Fresh Local Ingredients",
-          description: "Sourced daily for maximum quality.",
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg",
-        },
+          title: "Fresh Local Ingredients",          description: "Sourced daily for maximum quality.",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg"},
         {
-          title: "Homemade With Heart",
-          description: "Every dish is cooked fresh just for you.",
-          imageSrc: "http://img.b2bpic.net/free-photo/male-chef-kitchen-preparing-salad_23-2149646230.jpg",
-        },
+          title: "Homemade With Heart",          description: "Every dish is cooked fresh just for you.",          imageSrc: "http://img.b2bpic.net/free-photo/male-chef-kitchen-preparing-salad_23-2149646230.jpg"},
         {
-          title: "Fast Friendly Service",
-          description: "Always a smile to welcome you in.",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-vegetables-mushrooms-tomatoes-bell-peppers-greens-rustic-board_140725-145782.jpg",
-        },
+          title: "Fast Friendly Service",          description: "Always a smile to welcome you in.",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-vegetables-mushrooms-tomatoes-bell-peppers-greens-rustic-board_140725-145782.jpg"},
       ]}
       title="Why You'll Love Nutty Chefs"
       description="We believe in the power of fresh ingredients and friendly service."
@@ -165,41 +121,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          name: "Creamy Chicken Soup",
-          price: "£5.95",
-          imageSrc: "http://img.b2bpic.net/free-photo/homemade-chicken-soup-white-bowl-with-carrots-celery_123827-37303.jpg",
-        },
+          id: "1",          name: "Creamy Chicken Soup",          price: "£5.95",          imageSrc: "http://img.b2bpic.net/free-photo/homemade-chicken-soup-white-bowl-with-carrots-celery_123827-37303.jpg"},
         {
-          id: "2",
-          name: "Nutella Pancakes",
-          price: "£6.50",
-          imageSrc: "http://img.b2bpic.net/free-photo/dessert-white-plate_23-2147693915.jpg",
-        },
+          id: "2",          name: "Nutella Pancakes",          price: "£6.50",          imageSrc: "http://img.b2bpic.net/free-photo/dessert-white-plate_23-2147693915.jpg"},
         {
-          id: "3",
-          name: "Artisan Salad Sandwich",
-          price: "£7.25",
-          imageSrc: "http://img.b2bpic.net/free-photo/plate-with-sandwiches-souces_23-2148454780.jpg",
-        },
+          id: "3",          name: "Artisan Salad Sandwich",          price: "£7.25",          imageSrc: "http://img.b2bpic.net/free-photo/plate-with-sandwiches-souces_23-2148454780.jpg"},
         {
-          id: "4",
-          name: "Homemade Soup of Day",
-          price: "£5.50",
-          imageSrc: "http://img.b2bpic.net/free-photo/vegetable-soup-chicken-broth-sprinkled-with-herbs_140725-2237.jpg",
-        },
+          id: "4",          name: "Homemade Soup of Day",          price: "£5.50",          imageSrc: "http://img.b2bpic.net/free-photo/vegetable-soup-chicken-broth-sprinkled-with-herbs_140725-2237.jpg"},
         {
-          id: "5",
-          name: "Kids Meal Pancakes",
-          price: "£4.50",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-yummy-pancakes-with-fruits-tea-light_140725-121025.jpg",
-        },
+          id: "5",          name: "Kids Meal Pancakes",          price: "£4.50",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-yummy-pancakes-with-fruits-tea-light_140725-121025.jpg"},
         {
-          id: "6",
-          name: "Fresh Salad Baguette",
-          price: "£6.95",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-person-eating-doner-kebab-pita-bread-table_140725-12863.jpg",
-        },
+          id: "6",          name: "Fresh Salad Baguette",          price: "£6.95",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-person-eating-doner-kebab-pita-bread-table_140725-12863.jpg"},
       ]}
       title="Our Daily Menu"
       description="Delicious homemade meals to fuel your day."
@@ -213,51 +145,27 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "dine-in",
-          name: "Dine In",
-          price: "Varies",
-          features: [
-            "Cozy Atmosphere",
-            "Friendly Staff",
-            "Service included",
-          ],
+          id: "dine-in",          name: "Dine In",          price: "Varies",          features: [
+            "Cozy Atmosphere",            "Friendly Staff",            "Service included"],
           buttons: [
             {
-              text: "Book Now",
-              href: "#contact",
-            },
+              text: "Book Now",              href: "#contact"},
           ],
         },
         {
-          id: "takeaway",
-          name: "Takeaway",
-          price: "Quick",
-          features: [
-            "Fast Pickup",
-            "Freshly Cooked",
-            "Easy Ordering",
-          ],
+          id: "takeaway",          name: "Takeaway",          price: "Quick",          features: [
+            "Fast Pickup",            "Freshly Cooked",            "Easy Ordering"],
           buttons: [
             {
-              text: "Order Now",
-              href: "#menu",
-            },
+              text: "Order Now",              href: "#menu"},
           ],
         },
         {
-          id: "delivery",
-          name: "Delivery",
-          price: "+£2.00",
-          features: [
-            "Straight to Door",
-            "Hot & Fresh",
-            "Easy App Order",
-          ],
+          id: "delivery",          name: "Delivery",          price: "+£2.00",          features: [
+            "Straight to Door",            "Hot & Fresh",            "Easy App Order"],
           buttons: [
             {
-              text: "Order Now",
-              href: "#menu",
-            },
+              text: "Order Now",              href: "#menu"},
           ],
         },
       ]}
@@ -273,59 +181,28 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah J.",
-          role: "Diner",
-          company: "Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-coffee-croissant_23-2147699865.jpg",
-        },
+          id: "1",          name: "Sarah J.",          role: "Diner",          company: "Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-coffee-croissant_23-2147699865.jpg"},
         {
-          id: "2",
-          name: "Michael C.",
-          role: "Diner",
-          company: "Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-joyful-man-being-glad-hear-old-best-friend-mobile-phone_273609-8929.jpg",
-        },
+          id: "2",          name: "Michael C.",          role: "Diner",          company: "Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-joyful-man-being-glad-hear-old-best-friend-mobile-phone_273609-8929.jpg"},
         {
-          id: "3",
-          name: "Emily R.",
-          role: "Diner",
-          company: "Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-thanksgiving-food-border-arrangement-with-copy-space_23-2149114441.jpg",
-        },
+          id: "3",          name: "Emily R.",          role: "Diner",          company: "Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-thanksgiving-food-border-arrangement-with-copy-space_23-2149114441.jpg"},
         {
-          id: "4",
-          name: "David K.",
-          role: "Diner",
-          company: "Local",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-fork-knife-table-with-model-heart-plate_23-2148016816.jpg",
-        },
+          id: "4",          name: "David K.",          role: "Diner",          company: "Local",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-fork-knife-table-with-model-heart-plate_23-2148016816.jpg"},
         {
-          id: "5",
-          name: "Jane D.",
-          role: "Diner",
-          company: "Local",
-          rating: 4,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-delicious-cocktail_23-2150166180.jpg",
-        },
+          id: "5",          name: "Jane D.",          role: "Diner",          company: "Local",          rating: 4,
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-delicious-cocktail_23-2150166180.jpg"},
       ]}
       kpiItems={[
         {
-          value: "4.5",
-          label: "Star Rating",
-        },
+          value: "4.5",          label: "Star Rating"},
         {
-          value: "69+",
-          label: "Reviews",
-        },
+          value: "69+",          label: "Reviews"},
         {
-          value: "100%",
-          label: "Homemade",
-        },
+          value: "100%",          label: "Homemade"},
       ]}
       title="What Our Customers Say"
       description="Don't just take our word for it."
@@ -336,8 +213,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Visit Us"
       title="Get in Touch / Book Now"
       description="10 Donard St, Newcastle BT33 0AW | Phone: +44 28 4372 6236"
@@ -349,16 +225,23 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoReveal
+      <FooterMedia
       logoText="Nutty Chefs"
-      leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
-      rightLink={{
-        text: "Terms of Service",
-        href: "#",
-      }}
+      imageSrc="http://img.b2bpic.net/free-photo/fresh-organic-vegetables-wooden-boards-background-top-view-healthy-food-concept_613910-6207.jpg"
+      columns={[
+        {
+          title: "Pages",          items: [
+            { label: "Home", href: "#home" },
+            { label: "Menu", href: "#menu" },
+          ],
+        },
+        {
+          title: "Legal",          items: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Service", href: "#" },
+          ],
+        },
+      ]}
     />
   </div>
       </ReactLenis>
